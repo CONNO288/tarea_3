@@ -10,6 +10,10 @@ body {
   font-style: normal;
 }
 
+h1 {
+  color: #030397;
+}
+
 /* navbar*/
 .logo {
   width: 100px;
