@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navbar*/
+
+.logo{
+    width: 100px;
+}
+
+/* seccion principal (1)*/
+.principal{
+    padding: 2rem;
+}
+
+.principal__title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+
+/* seccion cards (2)*/
+.container_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card{
+    max-width: 300px;
+}
+
+/* footer*/
+.footer-box{
+    background-color: #343333e4;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-box__text{
+    text-align: right;
+}
+
+.footer-box__text p{
+    margin-bottom: 0rem;
+}
+
+.footer-box__marca__logo {
+    width: 50px;
+}
+
+
+/* mediaquery */
+@media (min-width: 992px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+  }
+
+@media (max-width: 991px) {
+    .nav-link{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-box{
+    flex-direction: column;
+  }
+  .footer-box__text{
+    text-align: center;
+    }
+}
